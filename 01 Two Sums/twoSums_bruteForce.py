@@ -1,3 +1,4 @@
+# Version 1 - Created list as a separate entity
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
 
