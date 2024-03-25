@@ -1,2 +1,4 @@
-# Leet-Code-Solutions
-My Leet Code Solutions
+# Leet Code Solutions
+
+1.  Two Sums
+    - C
