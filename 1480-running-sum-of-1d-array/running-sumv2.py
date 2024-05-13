@@ -8,16 +8,17 @@ class Solution:
 
         """
         # Create a new list to store the running sum. Initialise list with 0
-        runningsum = []
+        runningsums = []
         
         # Append the value from the 0th index from the original list to the new list
-        runningsum.append(nums[0])
-        # print(runningsum)
+        runningsums.append(nums[0])
+        # print(runningsums)
 
         # Iterate from the 1st index and do running sum. Append the running sum to the new list
         for i in range(1, len(nums)):
-            runningsum.append(runningsum[i-1] + nums[i])
-            # print(runningsum[i])
+            runningsum = runningsums[i-1] + nums[i]
+            runningsums.append(runningsum)
+            # print(runningsums[i])
 
         # return new list 
-        return runningsum
+        return runningsums
